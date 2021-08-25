@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"H99C":[function(require,module,exports) {
 "use strict";require("./styles.css"),document.getElementById("app").innerHTML='\n<div class="content">\n  <h1>Welcome!</h1>\n  <input id="text" type="text" placeholder="Write some text here ..."/>\n  <button class="btn">\n    Copy to clipboard\n  </button>\n</div>\n';var e=document.querySelector(".btn"),t=document.getElementById("text"),n="",c="";t.addEventListener("change",function(){n=(n=(n=(n=(n=t.value).replace(/[a,e,o,u]/g,"i")).replace(/[á,é,ó,ú]/g,"í")).replace(/[A,E,O,U]/g,"I")).replace(/[Á,É,Ó,Ú]/g,"Í"),c=n}),e.addEventListener("click",function(){t.value=c,t.select(),document.execCommand("copy"),t.setSelectionRange(0,99999),t.value=""});
 },{"./styles.css":"D9Nj"}]},{},["H99C"], null)
-//# sourceMappingURL=/csb-dxu28/src.68b746a6.js.map
+//# sourceMappingURL=/csb-dxu28/src.82e73337.js.map
